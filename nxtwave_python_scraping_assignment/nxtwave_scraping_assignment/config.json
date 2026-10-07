@@ -1,0 +1,9 @@
+{
+  "request_timeout_seconds": 15,
+  "max_retries": 3,
+  "retry_backoff_seconds": 1.0,
+  "delay_between_requests_seconds": 0.2,
+  "fetch_book_details": true,
+  "fetch_quote_author_details": true,
+  "user_agent": "NxtWave-WebScraping-Assignment/1.0 (educational project)"
+}

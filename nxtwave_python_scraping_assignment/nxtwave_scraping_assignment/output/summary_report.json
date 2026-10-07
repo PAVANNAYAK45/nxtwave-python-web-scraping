@@ -1,0 +1,38 @@
+{
+  "assignment": "NxtWave Python Web Scraping Interview Assignment",
+  "execution": {
+    "duration_seconds": 360.043,
+    "started_at_utc": "2026-10-06T10:53:33Z"
+  },
+  "records": {
+    "total_collected": 1100,
+    "collected_per_source": {
+      "Books to Scrape": 1000,
+      "Quotes to Scrape": 100
+    },
+    "total_after_cleaning": 1100,
+    "after_cleaning_per_source": {
+      "Books to Scrape": 1000,
+      "Quotes to Scrape": 100
+    },
+    "rejected_during_validation": 0,
+    "rejected_per_source": {},
+    "validation_errors": {},
+    "duplicates_detected_and_removed": 0,
+    "final_record_count": 1100,
+    "final_per_source": {
+      "Books to Scrape": 1000,
+      "Quotes to Scrape": 100
+    }
+  },
+  "configuration": {
+    "fetch_book_details": true,
+    "fetch_quote_author_details": true,
+    "delay_between_requests_seconds": 0.2,
+    "max_retries": 3
+  },
+  "outputs": [
+    "final_dataset.csv",
+    "summary_report.json"
+  ]
+}
